@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.text {
+  width: 468px;
+  text-align: justify;
+  font-size: smaller;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+}
+
+.text2 {
+  width: 1535px;
+  font-size: smaller;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 30px;
+}
+
+.mainnav {
+  width: 320px;
+  text-align: center;
+  text-shadow: rgb(250, 163, 2) 1px 0 15px;
+}
+
+.center {
+  width: 940px;
+  text-align: center;
+}
+
+.halfcenter {
+  width: 465px;
+  text-align: center;
+  line-height: 30%;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+div {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+
+#div1 {
+  animation-timing-function: linear;
+  text-align: center;
+}
+#div2 {
+  animation-timing-function: ease;
+  text-align: center;
+}
+#div3 {
+  animation-timing-function: ease-in;
+  text-align: center;
+}
+#div4 {
+  animation-timing-function: ease-out;
+  text-align: center;
+}
+#div5 {
+  animation-timing-function: ease-in-out;
+  text-align: center;
+}
+
+@keyframes mymove {
+  from {
+    left: 330px;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+.footer {
+  text-align: center;
+}
